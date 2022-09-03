@@ -1,19 +1,24 @@
 export const CollaboratorsBase = [
     {
-    id: "1",
-    nombre: "Colaborador 1",
-    correo: "colaborador1@colaborador1.com"
+    key: "1",
+    nombre: "Kirby",
+    correo: "kirby@nintendo.cl"
     },
     {
-    id: "2",
-    nombre: "Colaborador 2",
-    correo: "colaborador2@colaborador2.com"
+    key: "2",
+    nombre: "Mario",
+    correo: "mariobros@nintendo.cl"
     },
     {
-    id: "3",
-    nombre: "Colaborador 3",
-    correo: "colaborador3@colaborador3.com"
+    key: "3",
+    nombre: "Link",
+    correo: "zeldasfree@nintendo.cl"
     },
+    {
+        key: "4",
+        nombre: "Pikachu",
+        correo: "pikapika@nintendo.cl"
+        },
     ]
 
 

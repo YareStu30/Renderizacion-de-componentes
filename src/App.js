@@ -4,9 +4,9 @@ import React from 'react';
 function App() {
   return (
     <>
-    <header>
+   <h1>
      <h1>Jugadores</h1>
-     </header>
+     </h1>
      <Formulary/>
     </>
   );

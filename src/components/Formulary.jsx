@@ -4,7 +4,7 @@ import { CollaboratorsBase } from "../components/Collaborators";
 import Search from "../components/Search";
 
 const Formulary = () => {
-  const [user, setUser] = useState("");
+  const [user, setName] = useState("");
   const [email, setEmail] = useState("");
   const [users, setUsers] = useState([]);
   const [task, setTask] = useState(CollaboratorsBase);
@@ -17,7 +17,7 @@ const Formulary = () => {
     }
 
     setTask([...task, { id: nanoid(), nombre: user, correo: email }]);
-    setUser("");
+    setName("");
     setEmail("");
   };
 
@@ -28,24 +28,24 @@ const Formulary = () => {
       </div>
       <section>
         <div id="add">
-          <h3>Nombre</h3>
+          <h3>Gamer</h3>
           <form onSubmit={handleSubmit}>
             <input
               type="text"
-              className="form-control mb-2"
+              className="Seeker"
               placeholder="Ingrese nombre"
-              onChange={(e) => setUser(e.target.value)}
+              onChange={(e) => setName(e.target.value)}
               value={user}
             />
-            <h3>Correo</h3>
+            <h3>Email</h3>
             <input
               type="text"
-              className="form-control mb-2"
+              className="Seeker"
               placeholder="Ingrese correo"
               onChange={(e) => setEmail(e.target.value)}
               value={email}
             />
-            <input id="button" type="submit" value="Enviar" />
+            <input id="button" type="submit" value="Enviar" className="btn2" />
           </form>
         </div>
       </section>
