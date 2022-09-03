@@ -15,10 +15,10 @@ export const CollaboratorsBase = [
     correo: "zeldasfree@nintendo.cl"
     },
     {
-        key: "4",
-        nombre: "Pikachu",
-        correo: "pikapika@nintendo.cl"
-        },
+    key: "4",
+    nombre: "Pikachu",
+    correo: "pikapika@nintendo.cl"
+    },
     ]
 
 

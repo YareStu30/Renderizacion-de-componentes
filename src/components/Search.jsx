@@ -2,12 +2,11 @@ import { useState} from "react";
 
 const Search = (props) => {
   const [search, setSearch] = useState("");
-  const [print, setPrint] = useState([]);
-  /* Función para la búsqueda */
+  const [print, setPrinting] = useState([]);
   const searchTask = (e) => {
     e.preventDefault();
-    const fTask = props.tasks.filter((task) => task.nombre == search);
-    setPrint(fTask);
+    const listTask = props.tasks.filter((task) => task.nombre == search);
+    setPrinting(listTask);
     setSearch("");
   };
   return (
@@ -24,11 +23,11 @@ const Search = (props) => {
         </form>
         </header>
        
-        <div id="print">
+        <div id="printing">
         {print
           ? print.map((data) => (
               <ul key={data.id}>
-                <h3>Resultado</h3>
+                <h3>Jugadores encontrados</h3>
                 <li>{data.nombre} - {data.correo}</li>
               </ul>
             ))

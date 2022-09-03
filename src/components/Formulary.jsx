@@ -28,7 +28,7 @@ const Formulary = () => {
       </div>
       <section>
         <div id="add">
-          <h3>Gamer</h3>
+          <h3>Nombre</h3>
           <form onSubmit={handleSubmit}>
             <input
               type="text"
