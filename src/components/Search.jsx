@@ -15,7 +15,7 @@ const Search = (props) => {
         <form onSubmit={searchTask}>
           <input
             type="search"
-            placeholder="Búsqueda"
+            placeholder="Busqueda"
             onChange={(e) => setSearch(e.target.value)}
           />
           

@@ -12,7 +12,7 @@ const Formulary = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!user) {
-      alert("No se han llenado los");
+      alert("Debes completar los campos vacíos");
       return;
     }
 
