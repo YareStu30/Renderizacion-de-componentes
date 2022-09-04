@@ -16,6 +16,7 @@ const Search = (props) => {
           <input
             type="search"
             placeholder="Busqueda"
+            className="Seeker2"
             onChange={(e) => setSearch(e.target.value)}
           />
           

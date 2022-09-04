@@ -45,7 +45,7 @@ const Formulary = () => {
               onChange={(e) => setEmail(e.target.value)}
               value={email}
             />
-            <input id="button" type="submit" value="Enviar" className="btn2" />
+            <button type="submit" >Enviar</button>
           </form>
         </div>
       </section>
