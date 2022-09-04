@@ -45,13 +45,13 @@ const Formulary = () => {
               onChange={(e) => setEmail(e.target.value)}
               value={email}
             />
-            <button type="submit" >Enviar</button>
+            <button type="submit">Enviar</button>
           </form>
         </div>
       </section>
 
       <div id="users">
-        <h3>Usuarios actuales</h3>
+        <h3>Jugadores encontrados</h3>
         <table>
           <thead>
             <tr>
